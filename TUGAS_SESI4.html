@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Your First Personal Profile Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f5f7fb;
+            scroll-behavior: smooth; /* SCROLL HALUS */
+        }
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+        .hero-img {
+            width: 260px;
+            height: 260px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid #ff9800;
+        }
+        .section-title {
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">FAWZIU</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#project">Project</a></li>
+                <li class="nav-item"><a class="nav-link" href="#testimoni">Testimoni</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+    <div class="container pt-5 mt-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h6 class="text-warning">Hello, I'm</h6>
+                <h1 class="fw-bold">Kanaya Naila</h1>
+                <h3 class="text-primary">Web Developer</h3>
+                <p class="text-muted">
+                    Saya adalah web developer pemula yang sedang belajar membuat website modern,
+                    responsif, dan user-friendly.
+                </p>
+                <a href="#contact" class="btn btn-warning text-white">Contact Me</a>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="https://via.placeholder.com/300" alt="Foto Profil" class="hero-img">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-5 bg-white">
+    <div class="container">
+        <h2 class="section-title text-center">About Me</h2>
+        <div class="row text-center">
+            <div class="col-md-4 mb-3">
+                <h5>Full Name</h5>
+                <p>Kanaya Naila</p>
+            </div>
+            <div class="col-md-4 mb-3">
+                <h5>Education</h5>
+                <p>Teknik Informatika</p>
+            </div>
+            <div class="col-md-4 mb-3">
+                <h5>Role</h5>
+                <p>Web Developer</p>
+            </div>
+            <div class="col-md-4 mb-3">
+                <h5>Email</h5>
+                <p>kanayanaila18@gmail.com</p>
+            </div>
+            <div class="col-md-4 mb-3">
+                <h5>Hobby</h5>
+                <p>Coding & Design</p>
+            </div>
+            <div class="col-md-4 mb-3">
+                <h5>Address</h5>
+                <p>Semarang</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECT -->
+<section id="project" class="py-5">
+    <div class="container">
+        <h2 class="section-title text-center">My Projects</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="https://via.placeholder.com/400x250" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5>Landing Page</h5>
+                        <p>Website promosi produk modern.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="https://via.placeholder.com/400x250" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5>Company Profile</h5>
+                        <p>Website profil perusahaan.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="https://via.placeholder.com/400x250" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5>Personal Portfolio</h5>
+                        <p>Website portfolio pribadi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONI -->
+<section id="testimoni" class="py-5 bg-white">
+    <div class="container">
+        <h2 class="section-title text-center">Testimonials</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card shadow-sm p-3 text-center">
+                    <p>"Website yang dibuat sangat rapi dan responsif."</p>
+                    <h6 class="fw-bold mb-0">Andi Pratama</h6>
+                    <small>Client</small>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow-sm p-3 text-center">
+                    <p>"Pelayanan cepat dan hasil memuaskan."</p>
+                    <h6 class="fw-bold mb-0">Siti Rahma</h6>
+                    <small>Client</small>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow-sm p-3 text-center">
+                    <p>"Desain modern dan mudah digunakan."</p>
+                    <h6 class="fw-bold mb-0">Budi Santoso</h6>
+                    <small>Client</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER / CONTACT -->
+<footer id="contact" class="bg-dark text-white text-center py-4">
+    <p class="mb-1">Email: kanayanaila18@gmail.com</p>
+    <p class="mb-0">© 2025 Kanaya Naila | Web Developer</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
